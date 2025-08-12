@@ -1,0 +1,155 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+body{
+    margin: 0px;
+}
+.super{
+    width: 100%;
+    height: 100vh;
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 5px 100px;
+}
+header{
+    width: 100%;
+    height: 20vh;
+}
+.content{
+    width: 100%;
+    height: 80vh;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.logo{
+    width: 50%;
+    height: 80%;
+    float: left;
+    padding: 10px 15px;
+    text-align: center;
+}
+nav{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding: 25px;
+    text-align: center;
+}
+.logo img{
+ width: 250px;
+}
+nav select{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+} 
+button{
+    width: 150px;
+    height: 50px;
+    background-color: red;
+    color: white;
+
+}
+.content h1{
+    font-size: 40px;
+    font-weight: 1000;
+}
+.content p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.form input{
+    width: 300px;
+    height: 50px;
+}
+.sub{
+    width: 100%;
+    height: 60vh;
+    padding: 10px 100px;
+    background-color: black;
+    margin-top: 0px;
+}
+.sub div{
+    width: 25%;
+    height: 80%;
+    padding: 20px;
+    color: white;
+    float: left;
+    background-image: url('bg2.png');
+    display: table;
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    border-radius:20px ;
+    border-spacing: 15px ;
+}
+.questions{
+    width: 100%;
+    height: 100vh;
+    color: white;
+    text-align: center;
+    background-color: black;
+    padding: 10px 100px;
+}
+.questions details{
+    width: 60%;
+    margin: auto ;
+    padding: 20px;
+    border: solid 1px white;
+    border-radius: 10px ;
+    background-color:#262626;
+    font-weight: 500;
+    text-align: left;
+}
+.foot{
+    width: 100%;
+    height: 40vh;
+    background-color: black;
+    color: white;
+    padding: 20px 100px;
+    text-align: center;
+}
+.foot div{
+    width: 25%;
+    height: 200px;
+    text-align: left;
+    padding: 40px;
+    color: white;
+    box-sizing: border-box;
+    float: left;
+}
+.foot nav{
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: white;
+    padding: 20px 80px;
+}
+footer{
+    width: 100%;
+    height: 30vh;
+    background-color: black;
+    color: white;
+    padding: 10px 150px;
+  
+}
+.trending{
+    width: 100%;
+    height: 50vh;
+    background-color: black;
+    color: white;
+    padding: 10px 100px;
+}
+.trend{
+    width: 20%;
+    float: left;
+    padding: 10px;
+
+
+}
